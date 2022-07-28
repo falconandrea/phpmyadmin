@@ -696,6 +696,20 @@ div#tablestatistics table {
   display: none;
 }
 
+#pageSettingsModalDialog {
+  button.btn-close {
+    background: none;
+    margin-right: 0.3em;
+    border: 1px solid white;
+
+    &::after {
+      content: "\00d7";
+      font-size: 1.2rem;
+      line-height: 0.6rem;
+    }
+  }
+}
+
 #span_table_comment {
   font-weight: normal;
   font-style: italic;
